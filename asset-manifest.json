@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/point-game/static/css/main.e3ebed9f.chunk.css",
-    "main.js": "/point-game/static/js/main.00a977d4.chunk.js",
-    "main.js.map": "/point-game/static/js/main.00a977d4.chunk.js.map",
-    "runtime-main.js": "/point-game/static/js/runtime-main.de6471e8.js",
-    "runtime-main.js.map": "/point-game/static/js/runtime-main.de6471e8.js.map",
-    "static/js/2.06b52231.chunk.js": "/point-game/static/js/2.06b52231.chunk.js",
-    "static/js/2.06b52231.chunk.js.map": "/point-game/static/js/2.06b52231.chunk.js.map",
-    "static/js/3.019d41cb.chunk.js": "/point-game/static/js/3.019d41cb.chunk.js",
-    "static/js/3.019d41cb.chunk.js.map": "/point-game/static/js/3.019d41cb.chunk.js.map",
+    "main.css": "/point-game/static/css/main.961233f6.chunk.css",
+    "main.js": "/point-game/static/js/main.6c8ae7bc.chunk.js",
+    "main.js.map": "/point-game/static/js/main.6c8ae7bc.chunk.js.map",
+    "runtime-main.js": "/point-game/static/js/runtime-main.dc626f7e.js",
+    "runtime-main.js.map": "/point-game/static/js/runtime-main.dc626f7e.js.map",
+    "static/js/2.fd3d0263.chunk.js": "/point-game/static/js/2.fd3d0263.chunk.js",
+    "static/js/2.fd3d0263.chunk.js.map": "/point-game/static/js/2.fd3d0263.chunk.js.map",
+    "static/js/3.7afa01cf.chunk.js": "/point-game/static/js/3.7afa01cf.chunk.js",
+    "static/js/3.7afa01cf.chunk.js.map": "/point-game/static/js/3.7afa01cf.chunk.js.map",
     "index.html": "/point-game/index.html",
-    "static/css/main.e3ebed9f.chunk.css.map": "/point-game/static/css/main.e3ebed9f.chunk.css.map",
-    "static/js/2.06b52231.chunk.js.LICENSE.txt": "/point-game/static/js/2.06b52231.chunk.js.LICENSE.txt"
+    "static/css/main.961233f6.chunk.css.map": "/point-game/static/css/main.961233f6.chunk.css.map",
+    "static/js/2.fd3d0263.chunk.js.LICENSE.txt": "/point-game/static/js/2.fd3d0263.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.de6471e8.js",
-    "static/js/2.06b52231.chunk.js",
-    "static/css/main.e3ebed9f.chunk.css",
-    "static/js/main.00a977d4.chunk.js"
+    "static/js/runtime-main.dc626f7e.js",
+    "static/js/2.fd3d0263.chunk.js",
+    "static/css/main.961233f6.chunk.css",
+    "static/js/main.6c8ae7bc.chunk.js"
   ]
 }
