@@ -1,0 +1,98 @@
+$color-accent: #7e00f3;
+$color-blackish: #1c1c1c;
+$color-grayish: #f3f3f3;
+$color-separator-border: #e8e8e8;
+
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  padding: 8px;
+  background: $color-grayish;
+  justify-content: center;
+}
+
+.title {
+  display: inline;
+  margin: 0;
+  font-size: 1.6em;
+  font-family: 'Russo One', sans-serif;
+}
+
+.tipBar {
+  background: $color-blackish;
+  display: flex;
+  justify-content: center;
+}
+
+.tipBarContent {
+  color: white;
+  font-size: 1.6em;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin: 8px 8px 64px;
+  max-width: 1000px;
+}
+
+.sectionLink {
+  display: block;
+  max-width: 300px;
+  padding: 16px 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.6em;
+
+  &:not(:first-child) {
+    border-top: 1px solid $color-separator-border;
+  }
+}
+
+.sectionLinkText {
+  background-image: linear-gradient(0deg, $color-accent 100%, $color-accent 100%);
+  background-repeat: repeat-x;
+  background-position: 0 32px;
+  background-size: 2px 8px;
+  padding: 3px;
+}
+
+.optimize {
+  border-top: 1px solid $color-separator-border;
+  padding: 16px;
+}
+
+.optimizeButton {
+  margin: 8px 0;
+  font-weight: 700;
+  background: $color-separator-border;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+
+  &:hover {
+    background: #d6d6d6;
+  }
+}
+
+.footer {
+  background: $color-blackish;
+  margin-top: auto;
+  color: #b4b4b4;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}

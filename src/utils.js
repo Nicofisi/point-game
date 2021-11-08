@@ -18,6 +18,10 @@ export function shuffled(arrayToShuffle) {
   return array;
 }
 
+export function randomElement(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
+
 export function equalsIgnoreAccentAndCaseAndNonLetters(s1, s2) {
   const accents = [['ą', 'a'], ['ć', 'c'], ['ę', 'e'], ['ł', 'l'], ['ń', 'n'], ['ó', 'o'], ['ś', 's'], ['ź', 'z'], ['ż', 'z']];
 
