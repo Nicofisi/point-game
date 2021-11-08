@@ -1,0 +1,45 @@
+.imageGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  img {
+    max-width: 900px;
+  }
+}
+
+.questImageContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.answerImageContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input {
+  width: 400px;
+}
+
+.result {
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.good {
+  color: white;
+  background: green;
+  composes: result;
+}
+
+.bad {
+  color: white;
+  background: red;
+  composes: result;
+}
+
+.answerForm {
+  display: inline;
+  margin: 0 8px;
+
+}
