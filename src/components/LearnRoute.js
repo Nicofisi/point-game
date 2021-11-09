@@ -142,10 +142,10 @@ export default function LearnRoute ({ sectionData }) {
               }
 
               <form className={styles.answerForm}
-                    onSubmit={handleSubmitTextAnswer}>
+                    onSubmit={handleSubmitTextAnswer} autoComplete="off">
                 <input ref={userAnswerInput} type="text" name="answer"
                        className={styles.input} onChange={handleAnswerTextChanged}
-                       value={userAnswer}/>
+                       value={userAnswer} autoComplete="off"/>
                 <button type="submit">Sprawdź</button>
               </form>
             </div>

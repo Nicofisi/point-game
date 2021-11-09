@@ -58,7 +58,7 @@ export default function MainRoute ({ sectionData }) {
         </main>
       </div>
       <footer className={styles.footer}>
-        <div>Copyright Nicofisi 2021 | Wersja 2.5.0</div>
+        <div>Copyright Nicofisi 2021 | Wersja 2.6.0</div>
       </footer>
     </div>
   )
