@@ -8,7 +8,7 @@ import Loading from './components/Loading'
 function App () {
   const [sections, setSections] = useState(null)
   const [sectionData, setSectionData] = useState(null)
-  const [error, setError] = useState(null)
+  const [loadingError, setLoadingError] = useState(null)
 
   const parseRows = (text) => {
     const parser = new DOMParser()
@@ -19,17 +19,17 @@ function App () {
 
   useEffect(() => {
     fetch('/point-game/data/zzz_działy.html').
-      then((r) => r.text()).
-      then(text => {
-        const data = parseRows(text).map(row => {
-          const rowElems = Array.from(row.querySelectorAll('td'))
-          return rowElems.map(elem => elem.textContent)
-        })
-        setSections(data)
-      }).
+      then((r) => r.text()).then(text => {
+      const data = parseRows(text).map(row => {
+        const rowElems = Array.from(row.querySelectorAll('td'))
+        return rowElems.map(elem => elem.textContent)
+      })
+      setSections(data)
+    }).
       catch(ex => {
         console.log(ex)
-        setError('Nie udało się pobrać lub przetworzyć pliku zzz_działy.html')
+        setLoadingError(
+          'nie udało się pobrać lub przetworzyć pliku zzz_działy.html')
       })
   }, [])
 
@@ -69,16 +69,13 @@ function App () {
         }).
         catch(ex => {
           console.log(ex)
-          setError(
-            'Nie udało się pobrać lub przetworzyć jednego z plików z fiszkami')
+          setLoadingError(
+            'nie udało się pobrać lub przetworzyć jednego z plików z fiszkami')
         })
   }, [sections])
 
-  console.log(sectionData)
-
   return (
     <div className="App">
-      {error ?? ''}
       {sectionData ?
         (<HashRouter>
           <Switch>
@@ -91,7 +88,7 @@ function App () {
             <Redirect to="/"/>
           </Switch>
         </HashRouter>) :
-        <Loading/>
+        <Loading error={loadingError}/>
       }
     </div>
   )
