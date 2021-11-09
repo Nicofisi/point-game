@@ -27,13 +27,13 @@ $color-separator-border: #e8e8e8;
   background: $color-blackish;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .tipBarContent {
   color: white;
   font-size: 1.6em;
-  padding-top: 8px;
-  padding-bottom: 10px;
+  padding: 8px 8px 10px;
 }
 
 .mainContainer {
