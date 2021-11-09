@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/point-game/static/css/main.3934b665.chunk.css",
-    "main.js": "/point-game/static/js/main.27cef952.chunk.js",
-    "main.js.map": "/point-game/static/js/main.27cef952.chunk.js.map",
+    "main.css": "/point-game/static/css/main.81d50c26.chunk.css",
+    "main.js": "/point-game/static/js/main.025280f7.chunk.js",
+    "main.js.map": "/point-game/static/js/main.025280f7.chunk.js.map",
     "runtime-main.js": "/point-game/static/js/runtime-main.3ed91991.js",
     "runtime-main.js.map": "/point-game/static/js/runtime-main.3ed91991.js.map",
     "static/js/2.783af110.chunk.js": "/point-game/static/js/2.783af110.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.2c111572.chunk.js": "/point-game/static/js/3.2c111572.chunk.js",
     "static/js/3.2c111572.chunk.js.map": "/point-game/static/js/3.2c111572.chunk.js.map",
     "index.html": "/point-game/index.html",
-    "static/css/main.3934b665.chunk.css.map": "/point-game/static/css/main.3934b665.chunk.css.map",
+    "static/css/main.81d50c26.chunk.css.map": "/point-game/static/css/main.81d50c26.chunk.css.map",
     "static/js/2.783af110.chunk.js.LICENSE.txt": "/point-game/static/js/2.783af110.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3ed91991.js",
     "static/js/2.783af110.chunk.js",
-    "static/css/main.3934b665.chunk.css",
-    "static/js/main.27cef952.chunk.js"
+    "static/css/main.81d50c26.chunk.css",
+    "static/js/main.025280f7.chunk.js"
   ]
 }
