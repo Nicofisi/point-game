@@ -19,6 +19,7 @@
 }
 
 .questContainer {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   grid-area: quest;
@@ -88,6 +89,13 @@
   display: inline;
 }
 
+.answerOverQuest {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%);
+}
 
 @media screen and (max-width: 500px) {
   .learnGrid {
