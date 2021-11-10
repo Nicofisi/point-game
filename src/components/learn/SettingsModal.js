@@ -1,4 +1,4 @@
-import useSetting from '../useSetting';
+import useSetting from '../../useSetting';
 import styles from './SettingsModal.module.scss';
 import {useRef} from 'react';
 
@@ -22,10 +22,11 @@ export default function SettingsModal({handleClose}) {
     if (event.target === background.current) {
       handleClose();
     }
-  }
+  };
 
   return (
-      <div className={styles.background} ref={background} onClick={handleCloseBackground}>
+      <div className={styles.background} ref={background}
+           onClick={handleCloseBackground}>
         <article className={styles.card}>
           <h1>Ustawienia</h1>
           <p>

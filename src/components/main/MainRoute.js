@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import { preloadImage } from '../utils'
+import { preloadImage } from '../../utils'
 import styles from './MainRoute.module.scss'
-import { randomTip } from '../tips'
+import { randomTip } from '../../tips'
 
 export default function MainRoute ({ sectionData }) {
   const [isPreloadDone, setIsPreloadDone] = useState(null)
@@ -58,7 +58,7 @@ export default function MainRoute ({ sectionData }) {
         </main>
       </div>
       <footer className={styles.footer}>
-        <div>Copyright Nicofisi 2021 | Wersja 2.7.0</div>
+        <div>Copyright Nicofisi 2021 | Wersja 2.8.0</div>
       </footer>
     </div>
   )
